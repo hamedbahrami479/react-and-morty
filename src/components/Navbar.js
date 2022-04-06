@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+import styled from 'styled-components';
 
 const NavBar = () => {
   return (
@@ -23,7 +24,7 @@ const NavBarStyles = styled.ul`
   height: 70px;
   position: fixed;
   bottom: 0;
-  margin: 0 0 0 0;
+  margin: 0;
   border: 3px black solid;
 `;
 
