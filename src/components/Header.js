@@ -1,29 +1,20 @@
 import React from "react";
+import styled from 'styled-components';
 
-const Header = () => {
-  return (
-    <div>
-      <HeaderStyles> React and Morty </HeaderStyles>
-    </div>
+const Title = () => {
+  return( <TitleStyles> React and Morty </TitleStyles>
   );
 };
 
 
 
-const HeaderStyles = styles.h1`
-
+const TitleStyles = styled.h1`
 height: 75px;
-justify-content: cebter;
-margin: 5px 5px 5px 5px; 
-border: 3 px black solid;
-align-item: center;
+justify-content: center;
+margin: 5px; 
+border: 3px black solid;
+align-items: center;
 color: white;
 background-color: green
 `;
-
-
-export default Header;
-
-
-
-
+export default Title;
